@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>999okwin Prediction Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="terminal-header">
+            <span>🔴 🟡 🟢 999okwin.in -- bash -- 80x24</span>
+        </div>
+        <div id="terminal">
+            <pre id="banner"></pre>
+            <div id="output"></div>
+            <div class="input-line">
+                <span class="prompt">guest@termux:~$</span>
+                <input type="text" id="period-input" placeholder="Enter Period Number..." autocomplete="off">
+            </div>
+        </div>
+        <button id="predict-button">Initiate Prediction Sequence</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
